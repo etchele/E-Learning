@@ -1,0 +1,138 @@
+*{ /* Whole Website Body from <html> and <body> */
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  html, body { /* Body from <html> and <body> */
+    height: 100%;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  .Header { /* .Header for Background and positioning */
+    background-color: #4b2222; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 7%;  
+    padding-left: 20px;
+  }
+  .HeaderText { /* .HeaderText For WebTech */
+    color: #fffefe;
+    margin-left: 50px;
+    font-size: 70px;        
+  }
+  .NavigationalHeader { /* NavigationalHeader for Background and positioning */
+    height: auto;
+    background-color: #f3f3f3; 
+    padding: 1rem; 
+    display: flex; 
+    justify-content: right; 
+    align-items: center; /* Centers vertically */
+  }
+  .NavigationText { /* NavigationalText */
+    font-family: Arial;
+    line-height: 1.6;
+    margin-right: 20px;   
+    font-size: 20px;    
+    font-weight: bold;  
+    list-style-type: none; /* Removes list styling so that text arranges horizontally */
+    display: flex; /* Flex container for navigation items */
+  }
+  .NavigationText li { /* class li text */
+    margin-left: 1rem; 
+  }
+  .NavigationText a { /* Selects All Text in The Navigation Header */
+    text-decoration: none; /* Removes underline */
+    color: #0a0a0a; 
+    padding: 0.5rem 1rem; 
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  .NavigationText a:hover { /* Darken background on hover */
+    background-color: #555; 
+  }
+  .Home {  /* Image Home */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    max-width: 100%; /* Ensures image doesn't exceed its container */
+  }
+  .Home img {
+    width: 100%; 
+    height: auto; /* Maintains aspect ratio */
+  }
+  /* Courses and Topics Section */
+  #CourseTopics {
+    color: white;
+    width: 100%;
+    background-color: #142a47;
+    min-height: 100vh;
+    padding: 50px; /* Adjusted padding */
+  }
+  #CourseTopics h2,  
+  #CourseTopics h3,
+  #CourseTopics p,
+  #CourseTopics li {   /* For All Text in Courses and Topics */
+    margin-left: 100px; 
+    color: rgb(230, 214, 214);
+    font-family: "Agrandir", sans-serif;
+  
+  }
+  #CourseTopics h2 { /*Title*/
+    font-size: 150px; 
+    color: #c97e7e;
+  }
+  #CourseTopics h3 { /*Programs and Courses*/
+    font-size: 100px; 
+    color: #e5e6ac;
+  }
+  #CourseTopics p { /*Courses and Topics Definition*/
+    font-size: 60px; 
+    text-align: justify;
+    color: #f8f3f3;
+  }
+  #CourseTopics li {
+    color: #cec8c8;
+    font-size: 50px; /* Adjusted font size for li */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+  }
+  /* Add dashed line */
+  .dashed-line {
+    border: 0;
+    border-top: 2px dashed rgb(161, 14, 14);
+    margin: 20px 0;
+  }
+  /* Footer Section */
+#Contact {
+    background-color: #a4bee0; /* Footer Blue */
+    padding: 20px; /* Add padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .FooterText { /* Footer text styling */
+    margin-right: 30px;
+  }
+  .School, .Email, .Number, .Back { /* Selects All Text */
+    color: rgb(8, 0, 0);
+    margin: 5px 0;
+    font-size: 40px;
+  }
+  .School{  /* School Name Text */
+    font-weight: bold;
+    color: rgb(9, 50, 231);
+    font-size: 100px;
+  }
+  .Email a, .Back a { /*Email Text */
+    color: rgb(21, 6, 230); 
+    text-decoration: underline; /* Underline links */
+  }
+  .Email a:hover, .Back a:hover { /* Yellow background on hover */
+    color: #ececf1; /* Link hover color */
+  }
